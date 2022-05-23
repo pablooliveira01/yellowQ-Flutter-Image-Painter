@@ -49,7 +49,7 @@ class TextDialog extends StatelessWidget {
             alignment: Alignment.bottomRight,
             child: TextButton(
                 child: const Text(
-                  "Done",
+                  "Pronto",
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
