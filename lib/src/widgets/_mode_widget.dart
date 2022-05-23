@@ -39,8 +39,7 @@ class SelectionItems extends StatelessWidget {
 }
 
 const List<ModeData> paintModes = [
-  ModeData(
-      icon: Icons.zoom_out_map, mode: PaintMode.none, label: "Nenhum"),
+  ModeData(icon: Icons.zoom_out_map, mode: PaintMode.none, label: "Nenhum"),
   ModeData(icon: Icons.horizontal_rule, mode: PaintMode.line, label: "Linha"),
   ModeData(icon: Icons.crop_free, mode: PaintMode.rect, label: "Retângulo"),
   ModeData(icon: Icons.edit, mode: PaintMode.freeStyle, label: "Desenhar"),
@@ -48,7 +47,7 @@ const List<ModeData> paintModes = [
   ModeData(
       icon: Icons.arrow_right_alt_outlined,
       mode: PaintMode.arrow,
-      label: "Arrow"),
+      label: "Seta"),
   ModeData(
       icon: Icons.power_input,
       mode: PaintMode.dashLine,
