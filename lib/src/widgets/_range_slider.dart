@@ -14,11 +14,12 @@ class RangedSlider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slider.adaptive(
-      max: 40,
-      min: 2,
-      divisions: 19,
-      value: value!,
-      onChanged: onChanged,
-    );
+        max: 40,
+        min: 2,
+        divisions: 19,
+        value: value!,
+        onChanged: onChanged,
+        activeColor: Color(0xFFFBC02D),
+        inactiveColor: Color(0x40FBC02D));
   }
 }
